@@ -1,4 +1,4 @@
-# VTEX inStore Dev
+# VTEX Game 1
 
 This project is to launch a new tenant using the instore-core gatsby plugins.
 
