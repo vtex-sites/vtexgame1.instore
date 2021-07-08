@@ -42,7 +42,7 @@ Open a PR on this repo (probably updating @vtexlab/gatsby-theme-instore-core ver
 
 ## Cypress
 
-Setup cypress.json with the correct baseUrl (change from base.vtexlocal to the "name of your tenant".vtexlocal)
+Setup cypress.json with the correct baseUrl.
 
 Declare the environment variables on your terminal:
 
