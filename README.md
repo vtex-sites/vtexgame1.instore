@@ -1,7 +1,7 @@
 # VTEX Game 1 Tenant
 
 This project is to launch a new tenant using the instore-core gatsby plugins.
-test aaa
+test aaa aaa
 
 ## Setup
 
