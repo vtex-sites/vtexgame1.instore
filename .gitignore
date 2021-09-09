@@ -115,7 +115,3 @@ public
 
 # Mac
 .DS_Store
-
-
-#secrets
-secrets.revealed.json
