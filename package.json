@@ -22,10 +22,11 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "@vtexlab/gatsby-theme-instore-core": "0.4.4-beta.0",
+    "@vtexlab/gatsby-theme-instore-core": "0.4.4",
     "gatsby": "^3.7.2"
   },
   "devDependencies": {
+    "@types/ramda": "^0.27.45",
     "@typescript-eslint/eslint-plugin": "^4.14.1",
     "@vtex/lighthouse-config": "0.373.24",
     "@vtex/prettier-config": "^0.3.6",
