@@ -1,15 +1,12 @@
-const path = require('path')
-
-const STORE_ID = path.basename(__dirname).replace('.instore', '')
+require('dotenv').config({
+  path: `${__dirname}/vtex.env`,
+})
 
 module.exports = {
   plugins: [
     {
       resolve: '@vtexlab/gatsby-theme-instore-core',
-      options: { tenant: STORE_ID },
-    },
-    {
-      resolve: 'gatsby-plugin-no-sourcemaps',
+      options: { tenant: process.env.GATSBY_STORE_ID },
     },
   ],
 }
